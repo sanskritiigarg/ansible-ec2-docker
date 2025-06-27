@@ -20,9 +20,9 @@ ansible_project/
 ```
 ---
 
-## ⚙️ Requirements
+## Requirements
 
-- Ansible installed (>= 2.10 recommended).
+- Ansible installed (>= 2.10).
 - AWS account with:
   - Access key & secret key configured via AWS CLI or environment variables.
   - Existing VPC, subnet, and security group allowing ports 22 (SSH) & 80 (HTTP).
