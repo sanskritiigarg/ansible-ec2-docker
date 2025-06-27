@@ -1,0 +1,5 @@
+- name: Provision EC2, install Docker and run Nginx
+  hosts: ec2
+  become: true
+  roles:
+    - nginx
